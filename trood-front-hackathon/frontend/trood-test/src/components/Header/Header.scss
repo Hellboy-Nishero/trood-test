@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .logo{
+    font-weight: 900;
+    font-size: var(--font-big);
+    text-transform: uppercase;
+  }
+  
+  .icon{
+    width: 24px;
+    height: 24px;
+    color: transparent;
+    fill: var(--icon);
+  }
+  
+  .user-controlls{
+    display: flex;
+    gap: var(--gap-big);
+    align-items: center;
+    .user{
+      display: flex;
+      align-items: center;
+      gap: var(--gap-small);
+      &-icon{
+        width: 34px;
+        height: 34px;
+        background-color: var(--icon);
+        border-radius: 50%;
+      }
+  
+      &-name{
+        color: var(--txt-grey);
+        font-size: var(--font-medium);
+      }
+    }
+  }

@@ -1,0 +1,11 @@
+.projects-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active-projects, .passed-projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gap-big);
+}
